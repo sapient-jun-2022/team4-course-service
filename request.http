@@ -1,0 +1,66 @@
+## Home
+GET http://localhost:3000/ HTTP 1.1
+
+## Get all course
+GET http://localhost:3000/getAllCourses HTTP 1.1
+
+## Get Course by ID
+GET http://localhost:3000/course/{courseId}
+
+## add comment by courseId
+GET http://localhost:3000/course/{courseId}
+
+{
+    "userId" : "",
+    "comment" : ""
+}
+
+## Add a course
+POST http://localhost:3000/course HTTP 1.1
+
+{
+    "_id": 1,
+    "courseName": "Node JS",
+    "categoryName": "Web Development",
+    "courseVideo": "",
+    "instructorId": "",
+    "courseStage": "Node JS",
+    "rating": 5,
+    "numberOfTimeRated": 1,
+    "__v": 0
+}
+
+## get Course By instructorId
+GET http://localhost:3000/getCourseByInstructorId/{instructorId}
+
+## delete COurse By courseId
+DELETE http://localhost:3000/course/{courseId}
+
+
+## get course by getCourseByCourseStage
+GET http://localhost:3000/getCourseByCourseStage/{courseStage}
+
+## deletecourse by instructor id
+DELETE http://localhost:3000/deletCourseByInstructorId/{instructorId}
+
+## get course by category name
+GET http://localhost:3000/getCourseByCategory/{categoryName}
+
+## add comment to any course by courseId
+PUT http://localhost:3000/course/{courseId}
+{
+    "userId" : "user_id",
+    "comment" : "Nice tutorial"
+}
+
+## rate a course
+POST http://localhost:3000/course/rate/{courseId}
+{
+    "rating" : "4";
+}
+
+
+## get rating by courseId
+GET http://localhost:3000/course/rate/{courseId}
+
+
