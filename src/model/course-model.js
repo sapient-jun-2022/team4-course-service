@@ -14,7 +14,7 @@ export const CourseSchema = new Schema({
     },
 
     courseVideo:{
-        type: String,
+        type: Array,
         require: ""
     },
 
@@ -39,4 +39,4 @@ export const CourseSchema = new Schema({
         type: JSON
     }
 
-});
+}, {timestamps : true});

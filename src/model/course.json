@@ -1,0 +1,318 @@
+[
+    {
+        "_id": "62bbd31af3962d7fc01a4f09",
+        "courseName": "Vue JS",
+        "categoryName": "Web Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3"
+        ],
+        "instructorId": 1,
+        "courseStage": "Intermediate",
+        "rating": 24,
+        "numberOfTimeRated": 5,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:20:42.638Z",
+        "updatedAt": "2022-06-29T04:20:42.638Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd33df3962d7fc01a4f0b",
+        "courseName": "Node JS",
+        "categoryName": "Web Development",
+        "courseVideo": [
+            "vid1",
+            "vid2"
+        ],
+        "instructorId": 3,
+        "courseStage": "Intermediate",
+        "rating": 17,
+        "numberOfTimeRated": 4,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:21:17.589Z",
+        "updatedAt": "2022-06-29T04:21:17.589Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd366f3962d7fc01a4f0d",
+        "courseName": "React JS",
+        "categoryName": "Front-end Development",
+        "courseVideo": [
+            "vid1",
+            "vid2"
+        ],
+        "instructorId": 3,
+        "courseStage": "Begineer",
+        "rating": 103,
+        "numberOfTimeRated": 21,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:21:58.887Z",
+        "updatedAt": "2022-06-29T04:21:58.887Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd39af3962d7fc01a4f0f",
+        "courseName": "HTML, CSS and JS",
+        "categoryName": "Front-end Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3",
+            "vid4",
+            "vid5"
+        ],
+        "instructorId": 3,
+        "courseStage": "Begineer",
+        "rating": 13,
+        "numberOfTimeRated": 3,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:22:50.776Z",
+        "updatedAt": "2022-06-29T04:22:50.776Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd3ccf3962d7fc01a4f12",
+        "courseName": "Angular JS",
+        "categoryName": "Front-end Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3",
+            "vid4",
+            "vid5"
+        ],
+        "instructorId": 6,
+        "courseStage": "Expert",
+        "rating": 33,
+        "numberOfTimeRated": 7,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:23:40.246Z",
+        "updatedAt": "2022-06-29T04:23:40.246Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd3eaf3962d7fc01a4f14",
+        "courseName": "Spring Boot",
+        "categoryName": "Back-end Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3",
+            "vid4",
+            "vid5"
+        ],
+        "instructorId": 5,
+        "courseStage": "Expert",
+        "rating": 42,
+        "numberOfTimeRated": 10,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:24:10.950Z",
+        "updatedAt": "2022-06-29T04:24:10.950Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd3fef3962d7fc01a4f16",
+        "courseName": "C#",
+        "categoryName": "Back-end Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3",
+            "vid4",
+            "vid5"
+        ],
+        "instructorId": 5,
+        "courseStage": "Expert",
+        "rating": 55,
+        "numberOfTimeRated": 12,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:24:30.793Z",
+        "updatedAt": "2022-06-29T04:24:30.793Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd443f3962d7fc01a4f18",
+        "courseName": "Unreal engine",
+        "categoryName": "Game Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3",
+            "vid4",
+            "vid5",
+            "vid6",
+            "vid7"
+        ],
+        "instructorId": 10,
+        "courseStage": "Expert",
+        "rating": 155,
+        "numberOfTimeRated": 40,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:25:39.995Z",
+        "updatedAt": "2022-06-29T04:25:39.995Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd475f3962d7fc01a4f1a",
+        "courseName": "Unity",
+        "categoryName": "Game Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3",
+            "vid4"
+        ],
+        "instructorId": 11,
+        "courseStage": "Intermediate",
+        "rating": 200,
+        "numberOfTimeRated": 45,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:26:29.487Z",
+        "updatedAt": "2022-06-29T04:26:29.487Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd58df3962d7fc01a4f1c",
+        "courseName": "Java",
+        "categoryName": "Software Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3",
+            "vid4"
+        ],
+        "instructorId": 7,
+        "courseStage": "Intermediate",
+        "rating": 200,
+        "numberOfTimeRated": 45,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:31:09.103Z",
+        "updatedAt": "2022-06-29T04:31:09.103Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd5e4f3962d7fc01a4f1f",
+        "courseName": "Learn Python",
+        "categoryName": "Software Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3",
+            "vid4"
+        ],
+        "instructorId": 16,
+        "courseStage": "Expert",
+        "rating": 6,
+        "numberOfTimeRated": 2,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:32:36.305Z",
+        "updatedAt": "2022-06-29T04:32:36.305Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd612f3962d7fc01a4f21",
+        "courseName": "Microsoft Excel",
+        "categoryName": "Finance",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3"
+        ],
+        "instructorId": 14,
+        "courseStage": "Begineer",
+        "rating": 14,
+        "numberOfTimeRated": 5,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:33:22.047Z",
+        "updatedAt": "2022-06-29T04:33:22.047Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd64cf3962d7fc01a4f23",
+        "courseName": "SQL",
+        "categoryName": "Data Analysis",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3",
+            "vid4"
+        ],
+        "instructorId": 18,
+        "courseStage": "Beginner",
+        "rating": 23,
+        "numberOfTimeRated": 6,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:34:20.854Z",
+        "updatedAt": "2022-06-29T04:34:20.854Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd68ef3962d7fc01a4f25",
+        "courseName": "Real estate",
+        "categoryName": "Finance",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3",
+            "vid4"
+        ],
+        "instructorId": 19,
+        "courseStage": "Beginner",
+        "rating": 29,
+        "numberOfTimeRated": 7,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:35:26.251Z",
+        "updatedAt": "2022-06-29T04:35:26.251Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bbd6c2f3962d7fc01a4f27",
+        "courseName": "Investing in Stocks",
+        "categoryName": "Finance",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3",
+            "vid4"
+        ],
+        "instructorId": 20,
+        "courseStage": "Expert",
+        "rating": 34,
+        "numberOfTimeRated": 9,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T04:36:18.633Z",
+        "updatedAt": "2022-06-29T04:36:18.633Z",
+        "__v": 0
+    }
+]
