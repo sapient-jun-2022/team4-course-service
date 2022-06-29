@@ -11,7 +11,8 @@ import {
     getCourseByCategory,
     addComment,
     rateCourse,
-    getRatingByCourseId} from '../controllers/course-controller';
+    getRatingByCourseId,
+    getAllCoursesInDescendingOrderByRating} from '../controllers/course-controller';
 
 const routes = (app) =>{
     app.route("/")
@@ -25,6 +26,9 @@ const routes = (app) =>{
 
     app.route("/getAllCourses")
         .get(getAllCourses);
+
+    app.route("/getAllCoursesInDescendingOrderByRating")
+        .get(getAllCoursesInDescendingOrderByRating);
 
     app.route("/getCourseByInstructorId/:instructorId")
         .get(getCourseByInstructorId);

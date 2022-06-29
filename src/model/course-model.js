@@ -18,8 +18,12 @@ export const CourseSchema = new Schema({
         require: ""
     },
 
-    instructorId:{
+    price:{
         type: Number,
+    },
+
+    instructorName:{
+        type: String,
         require: ""
     },
 
@@ -27,11 +31,16 @@ export const CourseSchema = new Schema({
         type: String
     },
 
-    rating:{
+    totalRating:{
         type: Number
     },
 
     numberOfTimeRated:{
+        type: Number
+    },
+
+
+    rating:{
         type: Number
     },
 

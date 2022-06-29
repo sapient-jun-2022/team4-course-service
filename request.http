@@ -4,6 +4,10 @@ GET http://localhost:3000/ HTTP 1.1
 ## Get all course
 GET http://localhost:3000/getAllCourses HTTP 1.1
 
+## Get all course In descending order by rating
+GET http://localhost:3000/getAllCoursesInDescendingOrderByRating HTTP 1.1
+
+
 ## Get Course by ID
 GET http://localhost:3000/course/{courseId}
 
@@ -18,17 +22,18 @@ GET http://localhost:3000/course/{courseId}
 ## Add a course
 POST http://localhost:3000/course HTTP 1.1
 
-{
-    "_id": 1,
-    "courseName": "Node JS",
-    "categoryName": "Web Development",
-    "courseVideo": "",
-    "instructorId": "",
-    "courseStage": "Node JS",
-    "rating": 5,
-    "numberOfTimeRated": 1,
-    "__v": 0
-}
+    {
+        "courseName": "Its",
+        "categoryName": "Finance",
+        "courseVideo": ["vid1", "vid2", "vid3", "vid4"],
+        "instructorName": "Jeff",
+        "price": "1399",
+        "courseStage": "Expert",
+        "totalRating": 34,
+        "rating": 0,
+        "numberOfTimeRated": 9,
+        "comments": [{}]
+    }
 
 ## get Course By instructorId
 GET http://localhost:3000/getCourseByInstructorId/{instructorId}

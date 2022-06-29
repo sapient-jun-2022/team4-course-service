@@ -19,6 +19,8 @@ export const getCourseById = (req, res) => {
 
 export const addCourse = (req, res) => {
     let newCourse = new Course(req.body);
+    if(req.body.numberOfTimeRated != 0)
+        newCourse.rating = req.body.totalRating / req.body.numberOfTimeRated;
     newCourse.save((err, course) => {
         console.log(err+"   "+course);
         if (err) {
@@ -28,11 +30,24 @@ export const addCourse = (req, res) => {
     })
 }
 
+
 export const getAllCourses = (req, res) => {
     Course.find((err, course) => {
         if (err) {
             res.send(err);
         }
+        res.json(course);
+    })
+}
+
+function sortCourseInDescendingOrderByRating(x, y) { return x.rating > y.rating ? -1 : 1 };
+
+export const getAllCoursesInDescendingOrderByRating = (req, res) => {
+    Course.find((err, course) => {
+        if (err) {
+            res.send(err);
+        }
+        course.sort(sortCourseInDescendingOrderByRating);
         res.json(course);
     })
 }
@@ -111,12 +126,12 @@ export const rateCourse = (req, res) => {
             res.send(err);
         }
         tempCourse = course;
-        let rating = tempCourse.rating;
+        let totalRating = tempCourse.rating;
         let numberOfTimeRated = tempCourse.numberOfTimeRated;
-        rating = rating + parseInt(req.body.rating);
+        totalRating = totalRating + parseInt(req.body.rating);
         numberOfTimeRated+=1;
 
-        Course.findByIdAndUpdate({_id : req.params.courseId}, {$set : {"rating" : rating, "numberOfTimeRated" : numberOfTimeRated}}, (err, course) => {
+        Course.findByIdAndUpdate({_id : req.params.courseId}, {$set : {"totalRating" : totalRating, "numberOfTimeRated" : numberOfTimeRated, "rating" : (totalRating/numberOfTimeRated)}}, (err, course) => {
             if(err){
                 res.send(err);
             }
@@ -130,6 +145,6 @@ export const getRatingByCourseId = (req, res) => {
         if(err){
             res.send(err);
         }
-        res.json(course.rating/course.numberOfTimeRated);
+        res.json(course.rating);
     })
 }

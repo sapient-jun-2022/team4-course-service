@@ -1,6 +1,6 @@
 [
     {
-        "_id": "62bbd31af3962d7fc01a4f09",
+        "_id": "62bc1db6fd809f30ed757502",
         "courseName": "Vue JS",
         "categoryName": "Web Development",
         "courseVideo": [
@@ -8,311 +8,352 @@
             "vid2",
             "vid3"
         ],
-        "instructorId": 1,
+        "instructorName": "Jeff",
         "courseStage": "Intermediate",
-        "rating": 24,
+        "totalRating": 24,
         "numberOfTimeRated": 5,
+        "rating": 4.8,
         "comments": [
             {}
         ],
-        "createdAt": "2022-06-29T04:20:42.638Z",
-        "updatedAt": "2022-06-29T04:20:42.638Z",
+        "createdAt": "2022-06-29T09:39:02.175Z",
+        "updatedAt": "2022-06-29T09:39:02.175Z",
         "__v": 0
     },
     {
-        "_id": "62bbd33df3962d7fc01a4f0b",
+        "_id": "62bc1e35fd809f30ed757505",
         "courseName": "Node JS",
         "categoryName": "Web Development",
         "courseVideo": [
             "vid1",
-            "vid2"
+            "vid2",
+            "vid3"
         ],
-        "instructorId": 3,
+        "instructorName": "John",
         "courseStage": "Intermediate",
-        "rating": 17,
+        "totalRating": 15,
         "numberOfTimeRated": 4,
+        "rating": 3.75,
         "comments": [
             {}
         ],
-        "createdAt": "2022-06-29T04:21:17.589Z",
-        "updatedAt": "2022-06-29T04:21:17.589Z",
+        "createdAt": "2022-06-29T09:41:09.585Z",
+        "updatedAt": "2022-06-29T09:41:09.585Z",
         "__v": 0
     },
     {
-        "_id": "62bbd366f3962d7fc01a4f0d",
+        "_id": "62bc1e70fd809f30ed757508",
         "courseName": "React JS",
         "categoryName": "Front-end Development",
         "courseVideo": [
             "vid1",
-            "vid2"
-        ],
-        "instructorId": 3,
-        "courseStage": "Begineer",
-        "rating": 103,
-        "numberOfTimeRated": 21,
-        "comments": [
-            {}
-        ],
-        "createdAt": "2022-06-29T04:21:58.887Z",
-        "updatedAt": "2022-06-29T04:21:58.887Z",
-        "__v": 0
-    },
-    {
-        "_id": "62bbd39af3962d7fc01a4f0f",
-        "courseName": "HTML, CSS and JS",
-        "categoryName": "Front-end Development",
-        "courseVideo": [
-            "vid1",
             "vid2",
-            "vid3",
-            "vid4",
-            "vid5"
+            "vid3"
         ],
-        "instructorId": 3,
-        "courseStage": "Begineer",
-        "rating": 13,
-        "numberOfTimeRated": 3,
+        "instructorName": "Bala",
+        "courseStage": "Beginner",
+        "totalRating": 18,
+        "numberOfTimeRated": 4,
+        "rating": 4.5,
         "comments": [
             {}
         ],
-        "createdAt": "2022-06-29T04:22:50.776Z",
-        "updatedAt": "2022-06-29T04:22:50.776Z",
+        "createdAt": "2022-06-29T09:42:08.725Z",
+        "updatedAt": "2022-06-29T09:42:08.725Z",
         "__v": 0
     },
     {
-        "_id": "62bbd3ccf3962d7fc01a4f12",
+        "_id": "62bc1e89fd809f30ed75750a",
         "courseName": "Angular JS",
         "categoryName": "Front-end Development",
         "courseVideo": [
             "vid1",
             "vid2",
-            "vid3",
-            "vid4",
-            "vid5"
+            "vid3"
         ],
-        "instructorId": 6,
+        "instructorName": "Bala",
         "courseStage": "Expert",
-        "rating": 33,
+        "totalRating": 27,
         "numberOfTimeRated": 7,
+        "rating": 3.857142857142857,
         "comments": [
             {}
         ],
-        "createdAt": "2022-06-29T04:23:40.246Z",
-        "updatedAt": "2022-06-29T04:23:40.246Z",
+        "createdAt": "2022-06-29T09:42:33.916Z",
+        "updatedAt": "2022-06-29T09:42:33.916Z",
         "__v": 0
     },
     {
-        "_id": "62bbd3eaf3962d7fc01a4f14",
+        "_id": "62bc1ebdfd809f30ed75750c",
+        "courseName": "HTML, CSS and JS",
+        "categoryName": "Front-end Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3"
+        ],
+        "instructorName": "Josh Portilla",
+        "courseStage": "Expert",
+        "totalRating": 35,
+        "numberOfTimeRated": 8,
+        "rating": 4.375,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T09:43:25.341Z",
+        "updatedAt": "2022-06-29T09:43:25.341Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bc1ee1fd809f30ed75750e",
+        "courseName": "AEM",
+        "categoryName": "Front-end Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3"
+        ],
+        "instructorName": "Avinash",
+        "courseStage": "Expert",
+        "totalRating": 47,
+        "numberOfTimeRated": 12,
+        "rating": 3.9166666666666665,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T09:44:01.058Z",
+        "updatedAt": "2022-06-29T09:44:01.058Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bc1f09fd809f30ed757510",
         "courseName": "Spring Boot",
         "categoryName": "Back-end Development",
         "courseVideo": [
             "vid1",
             "vid2",
-            "vid3",
-            "vid4",
-            "vid5"
+            "vid3"
         ],
-        "instructorId": 5,
-        "courseStage": "Expert",
-        "rating": 42,
-        "numberOfTimeRated": 10,
+        "instructorName": "Aman",
+        "courseStage": "Intermediate",
+        "totalRating": 99,
+        "numberOfTimeRated": 25,
+        "rating": 3.96,
         "comments": [
             {}
         ],
-        "createdAt": "2022-06-29T04:24:10.950Z",
-        "updatedAt": "2022-06-29T04:24:10.950Z",
+        "createdAt": "2022-06-29T09:44:41.441Z",
+        "updatedAt": "2022-06-29T09:44:41.441Z",
         "__v": 0
     },
     {
-        "_id": "62bbd3fef3962d7fc01a4f16",
-        "courseName": "C#",
+        "_id": "62bc1f33fd809f30ed757512",
+        "courseName": "Dot-net",
         "categoryName": "Back-end Development",
         "courseVideo": [
             "vid1",
             "vid2",
-            "vid3",
-            "vid4",
-            "vid5"
+            "vid3"
         ],
-        "instructorId": 5,
+        "instructorName": "Brahmanand",
         "courseStage": "Expert",
-        "rating": 55,
-        "numberOfTimeRated": 12,
+        "totalRating": 10,
+        "numberOfTimeRated": 2,
+        "rating": 5,
         "comments": [
             {}
         ],
-        "createdAt": "2022-06-29T04:24:30.793Z",
-        "updatedAt": "2022-06-29T04:24:30.793Z",
+        "createdAt": "2022-06-29T09:45:23.588Z",
+        "updatedAt": "2022-06-29T09:45:23.588Z",
         "__v": 0
     },
     {
-        "_id": "62bbd443f3962d7fc01a4f18",
-        "courseName": "Unreal engine",
+        "_id": "62bc1f59fd809f30ed757514",
+        "courseName": "Unreal Engine",
         "categoryName": "Game Development",
         "courseVideo": [
             "vid1",
             "vid2",
-            "vid3",
-            "vid4",
-            "vid5",
-            "vid6",
-            "vid7"
+            "vid3"
         ],
-        "instructorId": 10,
+        "instructorName": "Kumkum",
         "courseStage": "Expert",
-        "rating": 155,
-        "numberOfTimeRated": 40,
+        "totalRating": 19,
+        "numberOfTimeRated": 4,
+        "rating": 4.75,
         "comments": [
             {}
         ],
-        "createdAt": "2022-06-29T04:25:39.995Z",
-        "updatedAt": "2022-06-29T04:25:39.995Z",
+        "createdAt": "2022-06-29T09:46:01.308Z",
+        "updatedAt": "2022-06-29T09:46:01.308Z",
         "__v": 0
     },
     {
-        "_id": "62bbd475f3962d7fc01a4f1a",
+        "_id": "62bc1f7ffd809f30ed757516",
         "courseName": "Unity",
         "categoryName": "Game Development",
         "courseVideo": [
             "vid1",
             "vid2",
-            "vid3",
-            "vid4"
+            "vid3"
         ],
-        "instructorId": 11,
-        "courseStage": "Intermediate",
-        "rating": 200,
-        "numberOfTimeRated": 45,
+        "instructorName": "Varki",
+        "courseStage": "Beginner",
+        "totalRating": 28,
+        "numberOfTimeRated": 7,
+        "rating": 4,
         "comments": [
             {}
         ],
-        "createdAt": "2022-06-29T04:26:29.487Z",
-        "updatedAt": "2022-06-29T04:26:29.487Z",
+        "createdAt": "2022-06-29T09:46:39.255Z",
+        "updatedAt": "2022-06-29T09:46:39.255Z",
         "__v": 0
     },
     {
-        "_id": "62bbd58df3962d7fc01a4f1c",
-        "courseName": "Java",
-        "categoryName": "Software Development",
+        "_id": "62bc1fb7fd809f30ed757518",
+        "courseName": "Data Structure",
+        "categoryName": "CS fundamentals",
         "courseVideo": [
             "vid1",
             "vid2",
-            "vid3",
-            "vid4"
+            "vid3"
         ],
-        "instructorId": 7,
-        "courseStage": "Intermediate",
-        "rating": 200,
-        "numberOfTimeRated": 45,
-        "comments": [
-            {}
-        ],
-        "createdAt": "2022-06-29T04:31:09.103Z",
-        "updatedAt": "2022-06-29T04:31:09.103Z",
-        "__v": 0
-    },
-    {
-        "_id": "62bbd5e4f3962d7fc01a4f1f",
-        "courseName": "Learn Python",
-        "categoryName": "Software Development",
-        "courseVideo": [
-            "vid1",
-            "vid2",
-            "vid3",
-            "vid4"
-        ],
-        "instructorId": 16,
+        "instructorName": "Madhulata",
         "courseStage": "Expert",
-        "rating": 6,
-        "numberOfTimeRated": 2,
+        "totalRating": 39,
+        "numberOfTimeRated": 9,
+        "rating": 4.333333333333333,
         "comments": [
             {}
         ],
-        "createdAt": "2022-06-29T04:32:36.305Z",
-        "updatedAt": "2022-06-29T04:32:36.305Z",
+        "createdAt": "2022-06-29T09:47:35.434Z",
+        "updatedAt": "2022-06-29T09:47:35.434Z",
         "__v": 0
     },
     {
-        "_id": "62bbd612f3962d7fc01a4f21",
-        "courseName": "Microsoft Excel",
+        "_id": "62bc2026fd809f30ed75751a",
+        "courseName": "Python",
+        "categoryName": "Software Development",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3"
+        ],
+        "instructorName": "James",
+        "courseStage": "Intermediate",
+        "totalRating": 39,
+        "numberOfTimeRated": 11,
+        "rating": 3.5454545454545454,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T09:49:26.794Z",
+        "updatedAt": "2022-06-29T09:49:26.794Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bc2048fd809f30ed75751c",
+        "courseName": "SQL",
+        "categoryName": "Data Analysis",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3"
+        ],
+        "instructorName": "Angela",
+        "courseStage": "Intermediate",
+        "totalRating": 43,
+        "numberOfTimeRated": 11,
+        "rating": 3.909090909090909,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T09:50:00.356Z",
+        "updatedAt": "2022-06-29T09:50:00.356Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bc205afd809f30ed75751e",
+        "courseName": "Excel",
+        "categoryName": "Data Analysis",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3"
+        ],
+        "instructorName": "Angela",
+        "courseStage": "Beginner",
+        "totalRating": 45,
+        "numberOfTimeRated": 11,
+        "rating": 4.090909090909091,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T09:50:18.036Z",
+        "updatedAt": "2022-06-29T09:50:18.036Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bc206bfd809f30ed757520",
+        "courseName": "Tableau",
+        "categoryName": "Data Analysis",
+        "courseVideo": [
+            "vid1",
+            "vid2",
+            "vid3"
+        ],
+        "instructorName": "Angela",
+        "courseStage": "Beginner",
+        "totalRating": 50,
+        "numberOfTimeRated": 13,
+        "rating": 3.8461538461538463,
+        "comments": [
+            {}
+        ],
+        "createdAt": "2022-06-29T09:50:35.680Z",
+        "updatedAt": "2022-06-29T09:50:35.680Z",
+        "__v": 0
+    },
+    {
+        "_id": "62bc2097fd809f30ed757522",
+        "courseName": "Stock market analysis",
         "categoryName": "Finance",
         "courseVideo": [
             "vid1",
             "vid2",
             "vid3"
         ],
-        "instructorId": 14,
-        "courseStage": "Begineer",
-        "rating": 14,
-        "numberOfTimeRated": 5,
-        "comments": [
-            {}
-        ],
-        "createdAt": "2022-06-29T04:33:22.047Z",
-        "updatedAt": "2022-06-29T04:33:22.047Z",
-        "__v": 0
-    },
-    {
-        "_id": "62bbd64cf3962d7fc01a4f23",
-        "courseName": "SQL",
-        "categoryName": "Data Analysis",
-        "courseVideo": [
-            "vid1",
-            "vid2",
-            "vid3",
-            "vid4"
-        ],
-        "instructorId": 18,
+        "instructorName": "Kyle",
         "courseStage": "Beginner",
-        "rating": 23,
-        "numberOfTimeRated": 6,
+        "totalRating": 55,
+        "numberOfTimeRated": 13,
+        "rating": 4.230769230769231,
         "comments": [
             {}
         ],
-        "createdAt": "2022-06-29T04:34:20.854Z",
-        "updatedAt": "2022-06-29T04:34:20.854Z",
+        "createdAt": "2022-06-29T09:51:19.313Z",
+        "updatedAt": "2022-06-29T09:51:19.313Z",
         "__v": 0
     },
     {
-        "_id": "62bbd68ef3962d7fc01a4f25",
-        "courseName": "Real estate",
+        "_id": "62bc20cbfd809f30ed757524",
+        "courseName": "Real Estate",
         "categoryName": "Finance",
         "courseVideo": [
             "vid1",
             "vid2",
-            "vid3",
-            "vid4"
+            "vid3"
         ],
-        "instructorId": 19,
-        "courseStage": "Beginner",
-        "rating": 29,
-        "numberOfTimeRated": 7,
+        "instructorName": "Lindse",
+        "courseStage": "Intermediate",
+        "totalRating": 60,
+        "numberOfTimeRated": 13,
+        "rating": 4.615384615384615,
         "comments": [
             {}
         ],
-        "createdAt": "2022-06-29T04:35:26.251Z",
-        "updatedAt": "2022-06-29T04:35:26.251Z",
-        "__v": 0
-    },
-    {
-        "_id": "62bbd6c2f3962d7fc01a4f27",
-        "courseName": "Investing in Stocks",
-        "categoryName": "Finance",
-        "courseVideo": [
-            "vid1",
-            "vid2",
-            "vid3",
-            "vid4"
-        ],
-        "instructorId": 20,
-        "courseStage": "Expert",
-        "rating": 34,
-        "numberOfTimeRated": 9,
-        "comments": [
-            {}
-        ],
-        "createdAt": "2022-06-29T04:36:18.633Z",
-        "updatedAt": "2022-06-29T04:36:18.633Z",
+        "createdAt": "2022-06-29T09:52:11.692Z",
+        "updatedAt": "2022-06-29T09:52:11.692Z",
         "__v": 0
     }
 ]
